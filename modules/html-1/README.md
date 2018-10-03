@@ -9,7 +9,7 @@ HTML is the skeleton of the website. Usually have `.html` file extension. It str
 <p style="text-align:center;">
   <img src="./assets/anatomy-of-html-element.png">
 
-Elements are surrounded opening and closing tags. 
+Elements are surrounded opening and closing tags.
 
 Attributes act like extra information tied to an HTML element. They are written within an HTML tag. As such, they are not displayed by the browser either.
 
@@ -24,8 +24,8 @@ Example :
 Some of html elements dont have closing tag and can’t contain anything inside them, but you can add a few attributes to provide them with additional information.
 
 ```html
-<img src="https://placehold.it/50x50" alt="Description"> 
-<input type="text"> 
+<img src="https://placehold.it/50x50" alt="Description">
+<input type="text">
 ```
 
 ## Valid HTML Structure
@@ -58,21 +58,19 @@ Every HTML element has a default display value. The default display value for mo
 
 <p style="text-align:center;">
   <img src="./assets/block-vs-inline-elements.jpeg">
-  
-A block element always takes up the full width available. Examples : 
-* Span `<span>` 
+
+An inline element only takes up as much width as necessary. Examples :
+* Span `<span>`
 * Image `<img>`
-* Bold `<b>`
+* Bold `<b>` or `<strong>`
 * Italic `<i>`
 * Quote `<q>`
-* Strong `<q>`
 
-An inline element only takes up as much width as necessary. Examples : 
-
-* Heading `<h1>` to `<h6>` 
+A block element always takes up the full width available. Examples :
+* Heading `<h1>` to `<h6>`
 * Blockquote `<blockquote>`
 * Paragraph `<p>`
-* Article `<a>`
+* Article `<article>`
 
 Code Example :
 
@@ -342,7 +340,7 @@ The `<form>` tag is a block-level element that defines a form for user's input. 
 
 ```html
 <form action="./login.html" method="GET">
-  Username : 
+  Username :
   <input type="text" name="username">
   <button type="submit">Submit</button>
 </form>
@@ -352,14 +350,14 @@ The `<form>` tag is a block-level element that defines a form for user's input. 
 
 To handle user input, HTML provide various form control souch as :
 
-* text inputs (for one or multiple lines)
-* radio buttons
-* checkboxes
-* dropdowns
-* upload widgets
-* submit buttons
+* text inputs (for one or multiple lines) `<input>`
+* radio buttons `<input type="radio">`
+* checkboxes `<input type="checkbox">`
+* dropdowns `<select><option>Dog</option><option>Cat</option></select>`
+* upload widgets `<input type="file">`
+* submit buttons `<input type="submit">`
 
-Text input example : 
+Text input example :
 
 | Input Type            	| Description                                            	|
 |-----------------------	|--------------------------------------------------------	|
@@ -382,7 +380,7 @@ Text input example :
 </form>
 ```
 
-References : 
+References :
 
 * https://developer.mozilla.org/en-US/docs/Learn/HTML
 * https://marksheet.io/html-basics.html
