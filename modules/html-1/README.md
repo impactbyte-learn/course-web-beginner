@@ -1,10 +1,10 @@
 # HTML 1
 
-## HTML (HyperText Markup Language)
+## **HTML (HyperText Markup Language)**
 
 HTML is the skeleton of the website. Usually have `.html` file extension. It structures the content, but not the style or functionality. That's why later we will need CSS and JavaScript.
 
-## Anatomy of HTML Element
+## **Anatomy of HTML Element**
 
 <p style="text-align:center;">
   <img src="./assets/anatomy-of-html-element.png">
@@ -28,7 +28,7 @@ Some of html elements dont have closing tag and can’t contain anything inside 
 <input type="text">
 ```
 
-## Valid HTML Structure
+## **Valid HTML Structure**
 
 The HTML file requires specific structure to be valid. This is the example of simple and valid HTML document :
 
@@ -52,7 +52,7 @@ The HTML file requires specific structure to be valid. This is the example of si
 * `<title>` :  The Title of HTML page.
 * `<meta>` :  A set of data that describes and gives information about the HTML document.
 
-## HTML Block vs Inline Element
+## **HTML Block vs Inline Element**
 
 Every HTML element has a default display value. The default display value for most elements is block or inline.
 
@@ -87,7 +87,7 @@ Result :
 <p style="text-align:center;">
   <img src="./assets/paragraph-example.png">
 
-## HTML Text Formatting
+## **HTML Text Formatting**
 
 ### Paragraph
 
@@ -180,7 +180,7 @@ HTML defines 6 levels of heading (from `<h1>` to `<h6>`). The `<h1>` is the most
   <img src="./assets/heading-1-to-6-example.png">
 
 
-## HTML Link
+## **HTML Link**
 
 With HTML link you can jump to another document. There are three type of HTML Link usage:
 
@@ -214,7 +214,7 @@ Go to the <a href="./contact.html">contact page</a>.
 <a href="https://www.google.com">Google</a>
 ```
 
-## HTML Images
+## **HTML Images**
 
 Using `<img>` tag, you can display non-textual content on the web. Like `.jpg`, `.gif`, `.png` format. The `<img>` tag is a self closing element.
 
@@ -252,7 +252,7 @@ Impact Byte Logo<br>
 <p style="text-align:center;">
   <img src="./assets/img-height-width-and-style-example.png">
 
-## HTML Tables
+## **HTML Tables**
 
 To build HTML Table, we need several HTML tag souch as:
 
@@ -331,7 +331,7 @@ The `<thead>`, `<tfoot>` and `<tbody>` are collections of rows. The `<tbody>` ta
 <p style="text-align:center;">
   <img src="./assets/thead-tbody-tfoot-example.png">
 
-## HTML Forms
+## **HTML Forms**
 
 The `<form>` tag is a block-level element that defines a form for user's input. The `<form>` tag require two attribute :
 
@@ -357,7 +357,7 @@ To handle user input, HTML provide various form control souch as :
 * upload widgets `<input type="file">`
 * submit buttons `<input type="submit">`
 
-Text input example :
+### Text input
 
 | Input Type            	| Description                                            	|
 |-----------------------	|--------------------------------------------------------	|
@@ -366,11 +366,11 @@ Text input example :
 | `type="password"`       	| Shows dots as characters                               	|
 | `type="number"`         	| Up/Down keyboard keys can be used                      	|
 | `type="tel"`            	| Can trigger an autofill                                	|
-| <textarea></textarea> 	| Can be resized                                         	|
+| `<textarea></textarea>` 	| Can be resized                                         	|
 
 ```html
 <form action="./login.html" method="GET">
-  	Text : <input type="text"><br>
+    Text : <input type="text"><br>
     Email : <input type="email"><br>
     Password : <input type="password"><br>
     Number : <input type="number"><br>
@@ -379,6 +379,22 @@ Text input example :
     <button type="submit">Submit</button>
 </form>
 ```
+<p style="text-align:center;">
+  <img src="./assets/form-text-input-example.png">
+
+### Radio buttons
+
+
+
+```html
+<form action="./home.html" method="GET">
+  Gender : <br>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+</form>
+```
+
 
 References :
 
