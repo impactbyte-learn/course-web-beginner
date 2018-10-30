@@ -99,6 +99,8 @@ p {
 
 ## Selectors
 
+[CodePen](https://codepen.io/impatbyte-network/pen/vVMLaY)
+
 #### Using Tag Selector
 
 Targeting generic HTML tags is easy: just use the tag name.
@@ -152,13 +154,62 @@ body p {
 }
 ```
 
-#### Pseudo Classes
+### Pseudo-classes
 
-Pseudo classes are used to specify a specific state of an element, or to target a specific child. For example `:hover` and `:nth-child()`
+#### `:hover`
+
+Used to apply CSS style when the targeted element is hovered.
+
+```css
+button {
+  background-color: red;
+}
+
+button:hover {
+  background-color: blue;
+}
+```
+
+#### `:first-child` & `:last-child`
+
+Used to target HTML elements depending on the order in which they appear in the code.
+
+```css
+li:first-child {
+  background-color: greenyellow;
+}
+
+li:last-child {
+  background-color: lightsalmon;
+}
+```
+
+#### `nth-child`
+
+Used to calculate which child element you want to target.
+
+```css
+/* second element */
+li:nth-child(2) {
+  background-color: red;
+}
+
+/* every third element */
+li:nth-child(3n) {
+  background-color: red;
+}
+
+/* every odd or even element */
+li:nth-child(odd/* or even */) {
+  background-color: red;
+}
+```
 
 ## Units
 
 ### Color
+
+[CodePen](https://codepen.io/impatbyte-network/pen/GYLZzy)
 
 #### Names
 
@@ -215,6 +266,8 @@ a {
 ```
 
 ### Size
+
+[CodePen](https://codepen.io/impatbyte-network/pen/aRxNeN)
 
 #### Pixels
 
@@ -281,6 +334,8 @@ If you set your `html { font-size: 18px; }`:
 
 ## Font
 
+[CodePen](https://codepen.io/impatbyte-network/pen/dgLXZd)
+
 #### `font-family`
 
 ```css
@@ -323,6 +378,8 @@ body {
 
 ## Text
 
+[CodePen](https://codepen.io/impatbyte-network/pen/pxBbKj)
+
 #### `text-align`
 
 Defines how its text and children inline elements are horizontally aligned.
@@ -345,6 +402,8 @@ p {
 
 ## Background
 
+[CodePen](https://codepen.io/impatbyte-network/pen/KGLpOb)
+
 #### `background-color`
 
 ```css
@@ -364,6 +423,8 @@ body {
 ## Display
 
 The `display` property allows to change the type of HTML element.
+
+[CodePen](https://codepen.io/impatbyte-network/pen/XxwmJW)
 
 #### `display: block;`
 
@@ -405,7 +466,7 @@ span {
 }
 ```
 
-## Visibility
+### Visibility
 
 The CSS property `visibility` is slightly similar to `display`.
 
@@ -416,6 +477,8 @@ Applying `visibility: hidden;` hides an element from your page, but only turns i
 ## Height and Width
 
 The dimensions (or height and width) of an element are **dynamic**, as they fluctuate in order to fit the content. It is somehow possible to set **specific** dimensions. We can specify the `width` and `height` of the element using various [units](#size)
+
+[CodePen](https://codepen.io/impatbyte-network/pen/mzYemX)
 
 #### `height`
 
@@ -435,6 +498,8 @@ div {
 
 ## Border
 
+[CodePen](https://codepen.io/impatbyte-network/pen/zmQrOw)
+
 A CSS border has 3 properties:
 
 - `border-color`
@@ -450,9 +515,9 @@ It also has 4 possible sides:
 
 ```css
 div {
-  border-color: black;
-  border-style: solid;
   border-width: 5px;
+  border-style: solid;
+  border-color: black;
 }
 
 /* shorthand */
@@ -461,7 +526,11 @@ div {
 }
 ```
 
-## Padding
+## Margin and Padding
+
+#### Padding
+
+[CodePen](https://codepen.io/impatbyte-network/pen/mzYPNM)
 
 The `padding` is the space between an element’s border and its content.
 
@@ -471,7 +540,9 @@ div {
 }
 ```
 
-## Margin
+#### Margin
+
+[CodePen](https://codepen.io/impatbyte-network/pen/KGLMKb)
 
 `margin` adds space _outside_ between an element and other elements.
 
@@ -525,6 +596,8 @@ div {
 
 ## Position
 
+[CodePen](https://codepen.io/impatbyte-network/pen/gBJMPv)
+
 With CSS `position` we can alter an element position. It has 4 possible value:
 
 #### Values
@@ -540,54 +613,3 @@ With CSS `position` we can alter an element position. It has 4 possible value:
 - `right`
 - `top`
 - `bottom`
-
-## Pseudo-classes
-
-#### `:hover`
-
-Used to apply CSS style when the targeted element is hovered.
-
-```css
-button {
-  background-color: red;
-}
-
-button:hover {
-  background-color: blue;
-}
-```
-
-#### `:first-child` & `:last-child`
-
-Used to target HTML elements depending on the order in which they appear in the code.
-
-```css
-li:first-child {
-  background-color: greenyellow;
-}
-
-li:last-child {
-  background-color: lightsalmon;
-}
-```
-
-#### `nth-child`
-
-Used to calculate which child element you want to target.
-
-```css
-/* second element */
-li:nth-child(2) {
-  background-color: red;
-}
-
-/* every third element */
-li:nth-child(3n) {
-  background-color: red;
-}
-
-/* every odd or even element */
-li:nth-child(odd/* or even */) {
-  background-color: red;
-}
-```
