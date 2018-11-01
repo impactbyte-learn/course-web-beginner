@@ -30,6 +30,8 @@ Some of html elements dont have closing tag and can’t contain anything inside 
 
 ## **Valid HTML Structure**
 
+[CodePen](https://codepen.io/impatbyte-network/pen/WaVZWO)
+
 The HTML file requires specific structure to be valid. This is the example of simple and valid HTML document :
 
 ```html
@@ -46,13 +48,15 @@ The HTML file requires specific structure to be valid. This is the example of si
 </html>
 ```
 
-* `<!DOCTYPE html>` : Tell the browser that the HTML document is an HTML 5.
-* `<html>` :  The ancestor of all HTML elements.
-* `<head>` :  carries additional information for the whole webpage, such as `<title>` and `<meta>`.
-* `<title>` :  The Title of HTML page.
-* `<meta>` :  A set of data that describes and gives information about the HTML document.
+- `<!DOCTYPE html>` : Tell the browser that the HTML document is an HTML 5.
+- `<html>` : The ancestor of all HTML elements.
+- `<head>` : carries additional information for the whole webpage, such as `<title>` and `<meta>`.
+- `<title>` : The Title of HTML page.
+- `<meta>` : A set of data that describes and gives information about the HTML document.
 
 ## **HTML Block vs Inline Element**
+
+[CodePen](https://codepen.io/impatbyte-network/pen/JmgrqV)
 
 Every HTML element has a default display value. The default display value for most elements is block or inline.
 
@@ -60,17 +64,19 @@ Every HTML element has a default display value. The default display value for mo
   <img src="./assets/block-vs-inline-elements.jpeg">
 
 An inline element only takes up as much width as necessary. Examples :
-* Span `<span>`
-* Image `<img>`
-* Bold `<b>` or `<strong>`
-* Italic `<i>`
-* Quote `<q>`
+
+- Span `<span>`
+- Image `<img>`
+- Bold `<b>` or `<strong>`
+- Italic `<i>`
+- Quote `<q>`
 
 A block element always takes up the full width available. Examples :
-* Heading `<h1>` to `<h6>`
-* Blockquote `<blockquote>`
-* Paragraph `<p>`
-* Article `<article>`
+
+- Heading `<h1>` to `<h6>`
+- Blockquote `<blockquote>`
+- Paragraph `<p>`
+- Article `<article>`
 
 Code Example :
 
@@ -82,6 +88,7 @@ Code Example :
   </p>
 </article>
 ```
+
 Result :
 
 <p style="text-align:center;">
@@ -91,6 +98,8 @@ Result :
 
 ### Paragraph
 
+[CodePen](https://codepen.io/impatbyte-network/pen/dgxJRZ)
+
 In HTML, each paragraph has to be wrapped by `<p>` element.
 
 ```html
@@ -99,11 +108,11 @@ In HTML, each paragraph has to be wrapped by `<p>` element.
 
 HTML also provide many elements for inline text formating like :
 
-* `<b>`/`<strong>` : Bold text / Important text
-* `<i>` : Italic text
-* `<em>` : Emphasized text
-* `<del>` : Deleted text
-* `<abbr>` : Abbreviations text
+- `<b>`/`<strong>` : Bold text / Important text
+- `<i>` : Italic text
+- `<em>` : Emphasized text
+- `<del>` : Deleted text
+- `<abbr>` : Abbreviations text
 
 ```html
 <article>
@@ -116,9 +125,11 @@ HTML also provide many elements for inline text formating like :
 
 ### List
 
+[CodePen](https://codepen.io/impatbyte-network/pen/zmgpdK)
+
 HTML provide three ways to specifying list of information :
 
-* `<ul>` : unordered lists (using dots)
+- `<ul>` : unordered lists (using dots)
 
 ```html
 <p>Starbucks Menu List:</p>
@@ -132,8 +143,7 @@ HTML provide three ways to specifying list of information :
 <p style="text-align:center;">
   <img src="./assets/unordered-list-example.png">
 
-
-* `<ol>` : ordered lists (automatically numbered)
+- `<ol>` : ordered lists (automatically numbered)
 
 ```html
 <p>Starbucks Menu List:</p>
@@ -147,7 +157,7 @@ HTML provide three ways to specifying list of information :
 <p style="text-align:center;">
   <img src="./assets/ordered-list-example.png">
 
-* `<dl>` : definition lists (pair of `<dt>` definition terms and `<dd>` definition descriptions)
+- `<dl>` : definition lists (pair of `<dt>` definition terms and `<dd>` definition descriptions)
 
 ```html
 <p>Starbucks Menu List:</p>
@@ -166,6 +176,8 @@ HTML provide three ways to specifying list of information :
 
 ### Headings
 
+[CodePen](https://codepen.io/impatbyte-network/pen/pxMpdv)
+
 HTML defines 6 levels of heading (from `<h1>` to `<h6>`). The `<h1>` is the most important one.
 
 ```html
@@ -176,17 +188,19 @@ HTML defines 6 levels of heading (from `<h1>` to `<h6>`). The `<h1>` is the most
 <h5>Heading 5</h5>
 <h6>Heading 6</h6>
 ```
+
 <p style="text-align:center;">
   <img src="./assets/heading-1-to-6-example.png">
 
-
 ## **HTML Link**
+
+[CodePen](https://codepen.io/impatbyte-network/pen/QZeaBW)
 
 With HTML link you can jump to another document. There are three type of HTML Link usage:
 
-* Navitage within the same page.
-* Navigate within the same website.
-* Navigate to another website.
+- Navigate within the same page.
+- Navigate within the same website.
+- Navigate to another website.
 
 ### Navigate within the same page
 
@@ -215,6 +229,8 @@ Go to the <a href="./contact.html">contact page</a>.
 ```
 
 ## **HTML Images**
+
+[CodePen](https://codepen.io/impatbyte-network/pen/wYVpYL)
 
 Using `<img>` tag, you can display non-textual content on the web. Like `.jpg`, `.gif`, `.png` format. The `<img>` tag is a self closing element.
 
@@ -254,14 +270,17 @@ Impact Byte Logo<br>
 
 ## **HTML Tables**
 
+[CodePen](https://codepen.io/impatbyte-network/pen/dgxJQe)
+
 To build HTML Table, we need several HTML tag souch as:
 
-* `<table>` : Create Table
-* `<tr>` : Add table row
-* `<th>` : Add heding cell inside row
-* `<td>` : Add regular cell inside row
+- `<table>` : Create Table
+- `<tr>` : Add table row
+- `<th>` : Add heding cell inside row
+- `<td>` : Add regular cell inside row
 
 Simple HTML table example :
+
 ```html
 <table>
   <tr>
@@ -328,15 +347,18 @@ The `<thead>`, `<tfoot>` and `<tbody>` are collections of rows. The `<tbody>` ta
   </tbody>
 </table>
 ```
+
 <p style="text-align:center;">
   <img src="./assets/thead-tbody-tfoot-example.png">
 
 ## **HTML Forms**
 
+[CodePen](https://codepen.io/impatbyte-network/pen/MPNrRj)
+
 The `<form>` tag is a block-level element that defines a form for user's input. The `<form>` tag require two attribute :
 
-* `action` : contains an address that defines where the form information will be sent
-* `method` : can be either GET or POST and defines how the form information will be sent
+- `action` : contains an address that defines where the form information will be sent
+- `method` : can be either GET or POST and defines how the form information will be sent
 
 ```html
 <form action="./login.html" method="GET">
@@ -350,23 +372,23 @@ The `<form>` tag is a block-level element that defines a form for user's input. 
 
 To handle user input, HTML provide various form control souch as :
 
-* text inputs (for one or multiple lines) `<input>`
-* radio buttons `<input type="radio">`
-* checkboxes `<input type="checkbox">`
-* dropdowns `<select><option>Dog</option><option>Cat</option></select>`
-* upload widgets `<input type="file">`
-* submit buttons `<input type="submit">`
+- text inputs (for one or multiple lines) `<input>`
+- radio buttons `<input type="radio">`
+- checkboxes `<input type="checkbox">`
+- dropdowns `<select><option>Dog</option><option>Cat</option></select>`
+- upload widgets `<input type="file">`
+- submit buttons `<input type="submit">`
 
 ### Text input
 
-| Input Type            	| Description                                            	|
-|-----------------------	|--------------------------------------------------------	|
-| `type="text"`           	| Allows any type of character                           	|
-| `type="email"`          	| Might display a warning if an invalid email is entered 	|
-| `type="password"`       	| Shows dots as characters                               	|
-| `type="number"`         	| Up/Down keyboard keys can be used                      	|
-| `type="tel"`            	| Can trigger an autofill                                	|
-| `<textarea></textarea>` 	| Can be resized                                         	|
+| Input Type              | Description                                            |
+| ----------------------- | ------------------------------------------------------ |
+| `type="text"`           | Allows any type of character                           |
+| `type="email"`          | Might display a warning if an invalid email is entered |
+| `type="password"`       | Shows dots as characters                               |
+| `type="number"`         | Up/Down keyboard keys can be used                      |
+| `type="tel"`            | Can trigger an autofill                                |
+| `<textarea></textarea>` | Can be resized                                         |
 
 ```html
 <form action="./login.html" method="GET">
@@ -379,12 +401,11 @@ To handle user input, HTML provide various form control souch as :
     <button type="submit">Submit</button>
 </form>
 ```
+
 <p style="text-align:center;">
   <img src="./assets/form-text-input-example.png">
 
 ### Radio buttons
-
-
 
 ```html
 <form action="./home.html" method="GET">
@@ -395,9 +416,8 @@ To handle user input, HTML provide various form control souch as :
 </form>
 ```
 
-
 References :
 
-* https://developer.mozilla.org/en-US/docs/Learn/HTML
-* https://marksheet.io/html-basics.html
-* https://www.w3schools.com/Html
+- https://developer.mozilla.org/en-US/docs/Learn/HTML
+- https://marksheet.io/html-basics.html
+- https://www.w3schools.com/Html
