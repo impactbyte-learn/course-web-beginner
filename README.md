@@ -1,4 +1,4 @@
-# [Impact Byte - Beginner Web Course]
+# Impact Byte - Course: Beginner Web
 
 <p style="text-align:center;">
   <img src="assets/impactbyte-logo.png">
@@ -16,15 +16,17 @@ Hello World! Welcome to the Beginner Front End Development course of Impact Byte
 
 ## Part 1
 
-- [Name](../modules/name-0/README.md)
+- [Design](../modules/design-1/README.md)
 
 ## Part 2
 
-- [Name](../modules/name-0/README.md)
+- [Editor](../modules/editor-1/README.md)
+- [HTML](../modules/html-1/README.md)
 
 ## Part 3
 
-- [Name](../modules/name-0/README.md)
+- [Markdown](../modules/markdown-1/README.md)
+- [CSS](../modules/css-1/README.md)
 
 ## Part 4
 
